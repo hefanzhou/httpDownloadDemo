@@ -1,0 +1,32 @@
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+   android:orientation="vertical" 
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent" >
+
+  <Button
+        android:id="@+id/updateBtn"
+        android:layout_height="wrap_content"
+         android:layout_width="match_parent"
+         android:text="上传"
+        >       
+    </Button>    
+    
+  
+    <Button
+        android:id="@+id/downloadBtn"
+        android:layout_height="wrap_content"
+         android:layout_width="match_parent"
+         android:text="下载"
+        >       
+    </Button>
+    
+        <Button
+        android:id="@+id/createFileBtn"
+        android:layout_height="wrap_content"
+         android:layout_width="match_parent"
+         android:text="创建文件"
+        >       
+    </Button> 
+    
+</LinearLayout >
